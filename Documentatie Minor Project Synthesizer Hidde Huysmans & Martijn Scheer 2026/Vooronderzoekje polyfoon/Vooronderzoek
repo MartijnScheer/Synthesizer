@@ -1,0 +1,29 @@
+Om te weten of we het systeem (gemakkelijk) kunnen upgraden naar een polyfoon systeem is het natuurlijk ook handig om 
+te kijken naar wat we momenteel hebben. Voor de schematic met aantekeningen, kijk het bestand genaamd aantekeningen in deze map!
+
+Dus wat zien we in de aantekeningen? Dat het huidige systeem gebruik maakt van drukschakelaars die, wanneer ze in worden 
+gedrukt, 3.3v doorlaten naar hun respectivelijke pin op P5 en daarmee op de microcontroller, de DAC zet het daarna om in een
+analoog signaal die wordt doorgepaasd naar de volgende module. 
+Kortom, bij het indrukken van een toets zet deze een unieke pin hoog op de microcontroller. Dat is lekker makkelijk!
+
+Maar wat betekend dit voor polyfoon? Momenteel is de uitgang een analoge spanning gebasseerd op de toets, dit heet een CV spanning,
+dus bijvoorbeeld van het indrukken van een C2 krijg je een spanning van 2V op de uitgang. Maar wat je bij een polyfoon systeem
+wilt is dat je een C, E en G kan indrukken, en die 3 tergelijk kunt horen voor een C majeur. Dat kan dus helaas niet met het huidige
+systeem, omdat bij het indrukken de cv spanning van de laatst ingedrukte toets gegeven wordt. 
+
+Om het systeem polyfoon te maken moet iedere gelijktijdige noot zijn eigen onafhankelijke signaalpad krijgen. In de praktijk 
+betekent dit dat er meerdere afzonderlijke “voices” nodig zijn. Iedere voice heeft daarbij minimaal nodig
+. een eigen CV-uitgang
+. een eigen oscillator
+. een eigen gate-signaal
+. en meestal een eigen envelope/VCA
+
+Een realistischer alternatief is parafonie. Hierbij worden meerdere oscillatoren toegevoegd met ieder hun eigen CV-besturing, 
+maar delen alle oscillatoren nog steeds hetzelfde filter en dezelfde VCA. Hierdoor kunnen akkoorden gespeeld worden zonder dat
+het volledige analoge signaalpad voor iedere stem gemaakt hoeft te worden.
+
+Wat hier voor moet gebeuren is dan dus: software matig een voice allocator maken, wat deze doet is in het geval dat er 
+twee noten gespeeld worden, bijvoorbeeld een C en een E. Hij ervoor zorgt dat de CV van de noot C op output 1 komt, 
+en de CV van de noot E op output 2 komt. (!!Dit betekend dus dat we meer outputs moeten maken op de input module!!)
+vervolgens gaan deze signalen naar hun eigen ingang op de oscillator module (!!Er moeten dus meer ingangen komen op de oscillator!)
+Deze signalen kunnen dan vervolgens weer in de mixer bij elkaar opgegooid worden. En voila, een parafonisch signaal!
