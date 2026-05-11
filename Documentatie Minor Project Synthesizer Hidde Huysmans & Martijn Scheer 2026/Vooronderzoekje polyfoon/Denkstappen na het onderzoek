@@ -1,0 +1,13 @@
+Uit het onderzoek is gebleken dat parafonie de beste optie is om de input module te upgraden.
+
+Kortom, meer outputs maken op de input module. Ieder van deze outputs krijgt doormiddel van voice allocation zijn eigen CV
+van een noot toegewezen, dus als je 3 noten speelt, C, E, G, dan wordt output 1 de CV van C, output 2 de CV van E, etc. 
+deze gaan naar hun eigen ingang op de oscillator (die dus ook meer ingangen moet krijgen, momenteel werkt er maar 1...) 
+de output van de oscillators worden dan gemixt in de mixer. en voila.
+
+Kortom. Het is nu niet mogelijk doordat de modules te klein zijn. Stel we willen poly/parafonie moeten we de hoeveelheid 
+in en uitgangen op de modules opkrikken.
+
+Ik zou zeggen dat mijn missie is dat ik nog eventjes door ga kijken als er niet dringerende dingen te doen/fixen zijn bij andere
+modules (dus nog ff doorgaan met analyseren van de hele synthesizer). En als ik niks bijzonders vind om te doen dan de oscillator
+en input module uitbreiden zodat we parafonie kunnen hebben!
