@@ -1,1 +1,29 @@
 Bestanden voor de ADSR, Mixer en VCA modules gemaakt door Ingmar Kosmeijer en Hidde Huysman
+
+korte uileg ADSR, mixer en VCA
+
+Wat doet een ADSR?
+Een ADSR is een ‘Envelope generator’, een envelope of “omhullende” is de vorm van
+geluid door de tijd heen wanneer er een toets word ingedrukt. Een envelope generator stelt een 
+geluidstechnicus of muzikant in staat om een breed scala aan verschillende tonen te creëren, 
+waardoor het een fundamenteel onderdeel is van geluidsynthese. 
+Een ADSR envelope generator is een van de meest voorkomende typen vanwege haar veelzijdigheid en 
+eenvoudige toepassing. Het gebruikt vier fasen voor de evolutie van geluid: 
+de attack-, decay-, sustain- en release-fase. 
+Door de tijd te variëren die nodig is om de ingestelde niveaus te bereiken,
+kan de toon op verschillende manieren gemoduleerd worden.
+
+Wat doet een mixer? 
+De mixer is nodig om audiosignalen, afkomstig van andere modules (zoals een LFO) en optionele externe bronnen,
+samen te voegen en vervolgens door te sturen naar de VCA
+De schakeling is opgebouwd als een inverterende sommator,
+waarbij drie ingangen via 100kΩ-weerstanden worden samengebracht op de inverterende ingang van de opamp. 
+Samen met de terugkoppelweerstand ook 100kΩ zorgt dit voor een gelijke versterking van 1 per kanaal. 
+De signalen worden lineair gecombineerd en aan de uitgang geïnverteerd, zonder versterking of verzwakking.
+
+Wat doet een VCA?
+Een VCA(Voltage-Controlled Amplifier) is een module in een synthesizer die het 
+geluidsniveau (amplitude) regelt op basis van een stuurspanning bijvoorbeeld de omhullende,
+gegenereerd door de ADSR envelope generator. 
+Een VCA wordt gebruikt om de intensiteit van een geluidssignaal te moduleren. 
+De VCA versterkt de geluidssignalen die al gemengd zijn in de mixer.
