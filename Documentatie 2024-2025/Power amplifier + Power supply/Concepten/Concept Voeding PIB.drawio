@@ -1,0 +1,140 @@
+<mxfile host="Electron" modified="2024-09-18T15:45:20.569Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/24.1.0 Chrome/120.0.6099.109 Electron/28.1.0 Safari/537.36" etag="HKu0KQ2NggIB9u2ttqu1" version="24.1.0" type="device">
+  <diagram name="Pagina-1" id="HEf_67osi5WRumF1z_D5">
+    <mxGraphModel dx="1434" dy="956" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="RabHARdsm7kQk71TJYfH-41" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="40" y="40" width="970" height="320" as="geometry" />
+        </mxCell>
+        <mxCell id="RabHARdsm7kQk71TJYfH-39" value="" style="group" vertex="1" connectable="0" parent="RabHARdsm7kQk71TJYfH-41">
+          <mxGeometry y="170" width="970" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="RabHARdsm7kQk71TJYfH-32" value="" style="group" vertex="1" connectable="0" parent="RabHARdsm7kQk71TJYfH-39">
+          <mxGeometry x="50" width="920" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="RabHARdsm7kQk71TJYfH-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="RabHARdsm7kQk71TJYfH-32" source="RabHARdsm7kQk71TJYfH-18">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="660" y="110" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RabHARdsm7kQk71TJYfH-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="RabHARdsm7kQk71TJYfH-32" source="RabHARdsm7kQk71TJYfH-19">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="860" y="110" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RabHARdsm7kQk71TJYfH-28" value="Naar systeem" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="RabHARdsm7kQk71TJYfH-32">
+          <mxGeometry x="830" y="120" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="RabHARdsm7kQk71TJYfH-29" value="Naar systeem" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="RabHARdsm7kQk71TJYfH-32">
+          <mxGeometry x="630" y="120" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="RabHARdsm7kQk71TJYfH-37" value="" style="group" vertex="1" connectable="0" parent="RabHARdsm7kQk71TJYfH-32">
+          <mxGeometry width="920" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="RabHARdsm7kQk71TJYfH-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="RabHARdsm7kQk71TJYfH-37" source="RabHARdsm7kQk71TJYfH-11" target="RabHARdsm7kQk71TJYfH-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RabHARdsm7kQk71TJYfH-11" value="Netadapter" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;fontColor=#000000;" vertex="1" parent="RabHARdsm7kQk71TJYfH-37">
+          <mxGeometry width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="RabHARdsm7kQk71TJYfH-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="RabHARdsm7kQk71TJYfH-37" source="RabHARdsm7kQk71TJYfH-13" target="RabHARdsm7kQk71TJYfH-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RabHARdsm7kQk71TJYfH-13" value="Transformer&lt;div&gt;met midden tak voor ground&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;fontColor=#000000;" vertex="1" parent="RabHARdsm7kQk71TJYfH-37">
+          <mxGeometry x="200" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="RabHARdsm7kQk71TJYfH-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="RabHARdsm7kQk71TJYfH-37" source="RabHARdsm7kQk71TJYfH-15">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="600" y="30" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RabHARdsm7kQk71TJYfH-15" value="Full wave rectifier" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;fontColor=#000000;" vertex="1" parent="RabHARdsm7kQk71TJYfH-37">
+          <mxGeometry x="400" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="RabHARdsm7kQk71TJYfH-20" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="RabHARdsm7kQk71TJYfH-37" source="RabHARdsm7kQk71TJYfH-18" target="RabHARdsm7kQk71TJYfH-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RabHARdsm7kQk71TJYfH-18" value="Voltage regulator&lt;div&gt;symetrisch&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;fontColor=#000000;" vertex="1" parent="RabHARdsm7kQk71TJYfH-37">
+          <mxGeometry x="600" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="RabHARdsm7kQk71TJYfH-19" value="Voltage regulator&lt;div&gt;asymetrisch&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;fontColor=#000000;" vertex="1" parent="RabHARdsm7kQk71TJYfH-37">
+          <mxGeometry x="800" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="RabHARdsm7kQk71TJYfH-34" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="RabHARdsm7kQk71TJYfH-39">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="10" y="30" as="sourcePoint" />
+            <mxPoint x="50" y="30" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RabHARdsm7kQk71TJYfH-36" value="230V" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="RabHARdsm7kQk71TJYfH-39">
+          <mxGeometry width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="RabHARdsm7kQk71TJYfH-40" value="" style="group" vertex="1" connectable="0" parent="RabHARdsm7kQk71TJYfH-41">
+          <mxGeometry width="970" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="RabHARdsm7kQk71TJYfH-31" value="" style="group" vertex="1" connectable="0" parent="RabHARdsm7kQk71TJYfH-40">
+          <mxGeometry x="50" width="920" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="RabHARdsm7kQk71TJYfH-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="RabHARdsm7kQk71TJYfH-31" source="RabHARdsm7kQk71TJYfH-1" target="RabHARdsm7kQk71TJYfH-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RabHARdsm7kQk71TJYfH-1" value="Netadapter" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;fontColor=#000000;" vertex="1" parent="RabHARdsm7kQk71TJYfH-31">
+          <mxGeometry width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="RabHARdsm7kQk71TJYfH-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="RabHARdsm7kQk71TJYfH-31" source="RabHARdsm7kQk71TJYfH-2" target="RabHARdsm7kQk71TJYfH-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RabHARdsm7kQk71TJYfH-2" value="Transformer" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;fontColor=#000000;" vertex="1" parent="RabHARdsm7kQk71TJYfH-31">
+          <mxGeometry x="160" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="RabHARdsm7kQk71TJYfH-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="RabHARdsm7kQk71TJYfH-31" source="RabHARdsm7kQk71TJYfH-4" target="RabHARdsm7kQk71TJYfH-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RabHARdsm7kQk71TJYfH-4" value="Full wave rectifier" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;fontColor=#000000;" vertex="1" parent="RabHARdsm7kQk71TJYfH-31">
+          <mxGeometry x="320" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="RabHARdsm7kQk71TJYfH-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="RabHARdsm7kQk71TJYfH-31" source="RabHARdsm7kQk71TJYfH-6" target="RabHARdsm7kQk71TJYfH-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RabHARdsm7kQk71TJYfH-6" value="Spanningsdeler&lt;div&gt;voor ground&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;fontColor=#000000;" vertex="1" parent="RabHARdsm7kQk71TJYfH-31">
+          <mxGeometry x="480" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="RabHARdsm7kQk71TJYfH-22" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="RabHARdsm7kQk71TJYfH-31" source="RabHARdsm7kQk71TJYfH-8" target="RabHARdsm7kQk71TJYfH-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RabHARdsm7kQk71TJYfH-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="RabHARdsm7kQk71TJYfH-31" source="RabHARdsm7kQk71TJYfH-8">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="700" y="110" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RabHARdsm7kQk71TJYfH-8" value="Voltage regulator&lt;div&gt;symetrisch&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;fontColor=#000000;" vertex="1" parent="RabHARdsm7kQk71TJYfH-31">
+          <mxGeometry x="640" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="RabHARdsm7kQk71TJYfH-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="RabHARdsm7kQk71TJYfH-31" source="RabHARdsm7kQk71TJYfH-21">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="860" y="110" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RabHARdsm7kQk71TJYfH-21" value="Voltage regulator&lt;div&gt;asymetrisch&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;fontColor=#000000;" vertex="1" parent="RabHARdsm7kQk71TJYfH-31">
+          <mxGeometry x="800" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="RabHARdsm7kQk71TJYfH-27" value="Naar systeem" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="RabHARdsm7kQk71TJYfH-31">
+          <mxGeometry x="670" y="120" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="RabHARdsm7kQk71TJYfH-30" value="Naar systeem" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="RabHARdsm7kQk71TJYfH-31">
+          <mxGeometry x="830" y="120" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="RabHARdsm7kQk71TJYfH-33" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="RabHARdsm7kQk71TJYfH-40">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="10" y="30" as="sourcePoint" />
+            <mxPoint x="50" y="30" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RabHARdsm7kQk71TJYfH-35" value="230V" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="RabHARdsm7kQk71TJYfH-40">
+          <mxGeometry width="60" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
