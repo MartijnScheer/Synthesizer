@@ -1,1 +1,18 @@
 Bestanden voor de VCO module gemaakt door Thijn Berkhoff en Ralph Hänninger
+
+Korte uitleg over VCO module:
+Een VCO, of “Voltage Controlled Oscillator” is een type
+oscillator die vaak in synthesizers wordt gebruikt om van
+een gelijkspanning een wisselspanning te maken. Waarvan
+de frequentie van de gelijkspanning in synthesizers
+exponentieel reageert op het niveau van de gelijkspanning.
+Dit zorgt ervoor dat je verschillende frequenties kan
+creëren op basis van een simpele gelijkspanning uit
+bijvoorbeeld een analoog of MIDI toetsenbord.
+synthesizers zie je VCO’s vaak als de bron van het geluid.
+Omdat ze door een spanning gemoduleerd kunnen worden,
+en omdat de uitgangsignalen van een VCO weer verder
+bewerkt kunnen worden in een synthesizer. Zo kan het
+uitgangsignaal naar bijvoorbeeld een ADSR module, een VCF
+module, een mixer, een VCA module of gewoon direct naar de
+eindversterker. 
