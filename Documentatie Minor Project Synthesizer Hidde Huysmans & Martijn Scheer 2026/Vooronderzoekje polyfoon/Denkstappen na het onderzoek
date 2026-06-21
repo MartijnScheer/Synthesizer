@@ -1,3 +1,6 @@
+BELANGRIJK: Het is mogelijk dat de informatie in dit bestand erg verouderd is, kijk altijd in de wiki voor de meest actuele
+informatie.
+
 Uit het onderzoek is gebleken dat parafonie de beste optie is om de input module te upgraden.
 
 Kortom, meer outputs maken op de input module. Ieder van deze outputs krijgt doormiddel van voice allocation zijn eigen CV
@@ -6,6 +9,11 @@ van een noot toegewezen, dus als je 3 noten speelt, C, E, G, dan wordt output 1 
 spanning, en plekje 2 heeft zijn eigen CV spanning! Hardwarematig past een extra uitgang(en) niet meer. Dus moet of een nieuwe
 PCB voor moeten gemaakt worden, of een paar toetsen eruit en inplaats daarvan de pins programmeren als outputs (maar maak er 
 gewoon een PCB van want dat is erg zonde).
+
+[21-06-2026]: vergeten te vermelden dat de software toch nog wat moeilijker is, aangezien elke CV spanning een eigen gate moet
+hebben, en er maar 1 DAC aangewezig is op de AVR128DB48. Dit kan opgelost worden met of een PWM met Filter (maar niet aangeraden)
+Of, en dat zou ik doen, een externe module aansturen met I2C, die meerdere CV spanningen maakt op basis van het ontvangen bericht.
+
 
 deze gaan naar hun eigen ingang op de oscillator (die dus ook meer ingangen moet krijgen, momenteel werkt er maar 1...) 
 de output van de oscillators worden dan gemixt in de mixer. en voila.
