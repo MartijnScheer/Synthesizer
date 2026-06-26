@@ -1,0 +1,4 @@
+Om het bestand te kunnen openen
+- Ga naar: https://app.diagrams.net/
+- Druk op "bestaand diagram openen".
+- Selecteer het .drawio bestand in deze map.
