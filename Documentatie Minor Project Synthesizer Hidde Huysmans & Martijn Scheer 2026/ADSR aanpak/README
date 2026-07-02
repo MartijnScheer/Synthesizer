@@ -1,0 +1,11 @@
+In de gesprekken met Bart en tijdens het project is er onderzoek gedaan naar mogelijke oplossingen om de ADSR opbouw met het NE555p timer IC nog te laten werken.
+
+
+Een van de redenen waarom de triggering van het timer IC mogeglijk niet werkt is dat de eerst transistor in de schakeling gigantisch in de verzadiging wordt geduwd. 
+Het toevoegen van een kleine weerstand in serie met de ingang van de eerste transistor kan dit al verhelpen, deze weerstand zorgt er namelijk voor dat de bjt sneller kan ontladen.
+
+
+
+gebruikte literatuur:
+  Nexpedia BJT handbook V2
+  Chapman - Transistor circuit techniques
